@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { BrowserRouter, Route } from "react-router-dom";
-import Header from "./Header.js";
-import HelpPage from "./HelpPage";
-import HomePage from "./HomePage";
-import todosReducer from "./Redux";
+import Header from "./components/Header.js";
+import HelpPage from "./components/HelpPage";
+import HomePage from "./components/HomePage";
+import todosReducer from "./reducers/reducer";
 
 class App extends Component {
   render() {

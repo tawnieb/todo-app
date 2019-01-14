@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
-import { removeTask } from "./Redux";
+import { removeTask } from "../actions/actions";
 
-const Todo = props => {
+export const Todo = props => {
   return (
     <div>
       {props.task}
